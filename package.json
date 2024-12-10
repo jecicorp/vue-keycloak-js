@@ -1,8 +1,8 @@
 {
-  "name": "@dsb-norge/vue-keycloak-js",
-  "version": "2.4.0",
+  "name": "@jecicorp/vue-keycloak-js",
+  "version": "24.0.0",
   "author": "Norwegian Directorate for Civil Protection",
-  "description": "A Keycloak plugin for Vue >= 2.x",
+  "description": "Fork of dsb-norge/vue-keycloak-js v2.4.0",
   "main": "dist/dsb-vue-keycloak.cjs.js",
   "module": "dist/dsb-vue-keycloak.esm.js",
   "browser": "dist/dsb-vue-keycloak.umd.js",
@@ -10,12 +10,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git@github.com:dsb-norge/vue-keycloak-js.git"
+    "url": "git@github.com:jecicorp/vue-keycloak-js.git"
   },
   "bugs": {
-    "url": "https://github.com/dsb-norge/vue-keycloak-js/issues"
+    "url": "https://github.com/jecicorp/vue-keycloak-js/issues"
   },
-  "homepage": "https://github.com/dsb-norge/vue-keycloak-js",
+  "homepage": "https://github.com/jecicorp/vue-keycloak-js",
   "dependencies": {
     "keycloak-js": "21.1.2"
   },

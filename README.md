@@ -1,12 +1,17 @@
 vue-keycloak plugin
 -------------------
 
-[![Known Vulnerabilities](https://snyk.io/test/github/dsb-norge/vue-keycloak-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/dsb-norge/vue-keycloak-js?targetFile=package.json)
-![npm](https://img.shields.io/npm/v/@dsb-norge/vue-keycloak-js.svg?style=flat-square)
-![npm](https://img.shields.io/npm/dt/@dsb-norge/vue-keycloak-js.svg?style=flat-square)
-![NPM](https://img.shields.io/npm/l/@dsb-norge/vue-keycloak-js.svg?style=flat-square)
+[![Known Vulnerabilities](https://snyk.io/test/github/jecicorp/vue-keycloak-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jecicorp/vue-keycloak-js?targetFile=package.json)
+![npm](https://img.shields.io/npm/v/@jecicorp/vue-keycloak-js.svg?style=flat-square)
+![npm](https://img.shields.io/npm/dt/@jecicorp/vue-keycloak-js.svg?style=flat-square)
+![NPM](https://img.shields.io/npm/l/@jecicorp/vue-keycloak-js.svg?style=flat-square)
 
 ## Introduction
+
+This is a fork of https://github.com/dsb-norge/vue-keycloak-js. Original project follow RedHat SSO version, this
+fork try to follow keycloak last release. Requests for improvement must be on the [original project](https://github.
+com/dsb-norge/vue-keycloak-js/issues).
+
 
 This plugin uses the official Keycloak JS adapter
 https://github.com/keycloak/keycloak/tree/main/js/libs/keycloak-js
@@ -31,13 +36,13 @@ will be redirected back to the application and remain unauthenticated.
 ### Install using npm
 
 ```
-npm install @dsb-norge/vue-keycloak-js --save
+npm install @jecicorp/vue-keycloak-js --save
 ```
 
 ### Install using yarn
 
 ```
-yarn add @dsb-norge/vue-keycloak-js
+yarn add @jecicorp/vue-keycloak-js
 ```
 
 ## Usage
@@ -49,7 +54,7 @@ yarn add @dsb-norge/vue-keycloak-js
 Tell Vue to install the plugin, and optionally pass in a JavaScript object for additional configuration.
 
 ```javascript
-import VueKeyCloak from '@dsb-norge/vue-keycloak-js'
+import VueKeyCloak from '@jecicorp/vue-keycloak-js'
 
 Vue.use(VueKeyCloak)
 
@@ -64,7 +69,7 @@ Vue.use(VueKeyCloak, options)
 Tell Vue to install the plugin, and optionally pass in a JavaScript object for additional configuration.
 
 ```javascript
-import VueKeyCloak from '@dsb-norge/vue-keycloak-js'
+import VueKeyCloak from '@jecicorp/vue-keycloak-js'
 
 createApp(App).use(VueKeycloak)
 
@@ -73,8 +78,8 @@ createApp(App).use(VueKeycloak, options)
 ```
 
 ```typescript
-import VueKeyCloak from '@dsb-norge/vue-keycloak-js'
-import { VueKeycloakInstance } from "@dsb-norge/vue-keycloak-js/dist/types";
+import VueKeyCloak from '@jecicorp/vue-keycloak-js'
+import { VueKeycloakInstance } from "@jecicorp/vue-keycloak-js/dist/types";
 
 createApp(App).use(VueKeycloak)
 
@@ -375,15 +380,15 @@ Vue.use(VueKeyCloak, {
 
 View a complete example app, with router guards:
 
-[hello-keycloak](https://github.com/dsb-norge/vue-keycloak-js/tree/master/examples/hello-keycloak)
+[hello-keycloak](https://github.com/jecicorp/vue-keycloak-js/tree/master/examples/hello-keycloak)
 
 Simple 'in component' secret displaying reactiveness:
 
-[simple_vue2](https://github.com/dsb-norge/vue-keycloak-js/tree/master/examples/simple_vue2)
+[simple_vue2](https://github.com/jecicorp/vue-keycloak-js/tree/master/examples/simple_vue2)
 
 Typescript example with vue 3
 
-[typescript_vue3](https://github.com/dsb-norge/vue-keycloak-js/tree/master/examples/typescript_vue3)
+[typescript_vue3](https://github.com/jecicorp/vue-keycloak-js/tree/master/examples/typescript_vue3)
 
 
 ## How to release
